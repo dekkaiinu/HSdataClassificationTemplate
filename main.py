@@ -16,7 +16,7 @@ from test import test
 def main(cfg: DictConfig):
     runs_path = create_runs_folder()
 
-    # データの用意（train, validation, test）numpy配列で(データ数, 151(次元数))の形にする．
+    # データの用意（train, validation, test）numpy配列で(データ数, 151(次元数))の形にする
     # X_train, X_val, X_test, y_train, y_val, y_test = torch_data_loader()
 
     # データの前処理
