@@ -1,0 +1,4 @@
+name: pixwise
+method: std
+# method: min-max
+

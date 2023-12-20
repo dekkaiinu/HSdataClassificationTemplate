@@ -1,0 +1,6 @@
+name: dataset
+# method: min-max
+# method: std
+method: "0-1"
+axis: False
+# axis: True

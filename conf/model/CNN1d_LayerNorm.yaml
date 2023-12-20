@@ -1,0 +1,4 @@
+name: CNN1d_LayerNorm
+kernel_size: 3
+pool_size: 2
+dropout_prob: 0.1

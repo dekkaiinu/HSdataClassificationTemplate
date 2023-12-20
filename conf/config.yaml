@@ -1,0 +1,18 @@
+hydra:
+  run:
+    dir: './runs/${now:%Y-%m-%d}/${now:%H-%M}/hydra_log'
+
+defaults:
+  - _self_
+  # - prepro: dataset
+  - prepro: pixwise
+  - model: MLP_BatchNorm
+  # - model: CNN1d_BatchNorm
+  # - model: CNN1d_LayerNorm
+  # - model: MLP_InstanceNorm
+  # - model: MCE_ST
+
+train_parameter:
+  lr: 0.001
+  epochs: 5
+  batch_size: 128
